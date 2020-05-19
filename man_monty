@@ -1,0 +1,19 @@
+.TH HSH 1 "May 2020" "1.0" "Monty man page"
+.SH NAME
+.B Monty
+- monty bytecode interpreter
+.SH SYNOPSIS
+.B ./monty <filename>
+
+.SH DESCRIPTION
+Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. This program will interpret Monty's Bytecode.
+
+Files containing Monty byte codes usually have the .m extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument
+
+.SH EXIT STATUS
+EXIT_FAILURE - Return 1 Program failed
+
+EXIT_SUCCESS - Return 0 Program Exit successfully
+
+.SH AUTHORS
+Andrew Godwin
